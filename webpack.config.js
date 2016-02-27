@@ -2,11 +2,19 @@ var webpack = require('webpack');
 var path = require('path');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: [
+    'webpack-hot-middleware/client',
+    './src/index.js'
+  ],
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/'
   },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoErrorsPlugin()
+  ],
   module: {
     loaders: [
       {

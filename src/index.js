@@ -1,10 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import NavBar from './NavBar';
 
-class HelloReact extends React.Component {
-  render() {
-    return <p> Hello React! </p>;
-  }
-}
-
-ReactDOM.render(<HelloReact/>, document.getElementById('root'));
+ReactDOM.render(<NavBar />, document.getElementById('root'));
