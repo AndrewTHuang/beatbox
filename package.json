@@ -1,0 +1,22 @@
+{
+  "name": "beatbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewTHuang/beatbox.git"
+  },
+  "author": "Andrew T Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewTHuang/beatbox/issues"
+  },
+  "homepage": "https://github.com/AndrewTHuang/beatbox#readme",
+  "dependencies": {
+    "webpack": "^1.12.14"
+  }
+}
