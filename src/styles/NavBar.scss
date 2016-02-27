@@ -1,0 +1,24 @@
+.navbar {
+  width: 100%;
+  border: 1px solid blue;
+  display: table;
+}
+
+.navbar-beatbox {
+  display: table-cell;
+}
+
+.navbar-links-container {
+  list-style-type: none;
+  text-align: right;
+  display: table-cell;
+
+  li {
+    padding: 20px;
+    display: inline;
+  }
+
+  li > a {
+    text-decoration: none;
+  }
+}
