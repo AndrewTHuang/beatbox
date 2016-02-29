@@ -2,10 +2,12 @@
   width: 100%;
   border: 1px solid blue;
   display: table;
+  position: absolute;
 }
 
 .navbar-beatbox {
   display: table-cell;
+  color: white;
 }
 
 .navbar-links-container {
@@ -20,5 +22,10 @@
 
   li > a {
     text-decoration: none;
+    color: white;
+  }
+
+  li > a:hover {
+    color: red;
   }
 }

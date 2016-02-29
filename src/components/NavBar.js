@@ -3,7 +3,6 @@ import styles from '../styles/NavBar.scss';
 
 export default class NavBar extends React.Component {
   render() {
-
     const navTitles = ['Home', 'How It Works', 'About', 'Contact', 'Sign Up'];
 
     const navElements = navTitles.map((title) => {

@@ -1,0 +1,28 @@
+.splash-container {
+  border: 1px solid red;
+  width: 100%;
+  height: 880px;
+  background-image: url('../assets/splash.jpg');
+  background-size: cover;
+}
+
+.splash-text {
+  border: 2px solid white;
+  width: 50%;
+  margin-top: 5%;
+}
+
+.splash-tagline {
+  color: white;
+  font-size: 40px;
+
+}
+
+.splash-cta {
+  display: block;
+  margin: 0 auto;
+  height: 60px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 20px;
+}
